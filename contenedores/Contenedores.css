@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+.contenedor-pagina{
+    display: flex;
+    background-color: rgb(204, 133, 92);
+}
+/**/
+.contenedor-izq{
+    width: 175px;
+    background-color: #b3b3b3;
+    padding: 15px;
+    box-sizing: border-box;
+}
+/**/
+.contenedor-pri{
+    flex-grow: 1;
+    padding: 20px;
+}
+/*seccion del articulo*/
+.contenedor-articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.contenedor-articulo-h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.articulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 60px 50px;
+    background-color: #2a9b3f;
+    border-radius: 16px;
+    color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.texto-articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.ex-texto-articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.ex-articulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin: 30px auto;
+    padding: 60px 50px;
+    background-color: #ce9347;
+    border-radius: 16px;
+    color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.imagen-articulo{
+    border: 5px solid #40409e;
+    width: auto;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+/*estuctura*/
+.ex-con-art{
+    border: 2px solid black;
+    background-color: rgb(220, 221, 221);
+    margin: 10px;
+}
+.ex-con-art-ej{
+    width: 500px;
+    border-radius: 16px;
+    border: 2px solid black;
+    background-color: rgb(62, 182, 126);
+    padding: 10px;
+}
+/**/
+.contenedor-der{
+    width: 250px;
+    background-color: #898ada;
+    padding: 15px;
+    
+}

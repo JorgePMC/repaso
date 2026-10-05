@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+    <body>
+        <p>Primero que nada para hacer una pagina hay que entender que todo debe encontrarse dentro de un contenedor.</p>
+        <p>Por ejemplo, este texto esta dentro del body crudo, por lo que se vera por encima del header y todos los demas parametros.</p>
+        <p>Las dos cosas mas importantes antes de programar la pagina es, hacer "link" del css (dentro del head)</p>
+        <p>Y hacer "script" del js(antes de cerrar el body)</p>
+        <p>una de las cosas que siempre modifico es el margin y el pading del body, esto es para que no se vean bordes por defecto.</p>
+
+        <header>
+            <p>Ahora recien partimos en el header(crudo), por lo general tiene a aportar info sobre la pagina, o poner un buscador, o un inico de secion</p>
+            <h6>ahora estoy escibiendo con un h6 normal</h6>
+            <h6 class="header-h6"> y aqui se supone que esta modificado en h6 y tiene diferentes propiedades al h6 crudo</h6>
+        </header>
+        
+        <section>
+            <div class="c1">a</div>
+            <span class="c2">esto tendra mas sentido despues...</span>
+        </section>
+
+        <div class="contenedor-pagina">
+            a
+            <aside class="contenedor-izq">
+                <p>se usa aside cuando se crean este tipo de barras</p>
+                <p>aqui hay una barra izquierda para alguna funcion</p>
+                <nav>
+                    <p>aqui ocupare un nav para listar una serie de links NAVegables :^)</p>
+                    <ul>
+                        <p>La etiqueta ul se usa para hacer una sangria todo lo que vaya dentro de el</p>
+                        <a href="#">La etiqueta "a" se usa para links, pero este de momento no funciona y es solo para demostar</a>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="contenedor-pri">
+                <h1>dentro del MAIN procedere a mostrar el uso de imagenes y figuras</h1>
+                <p>para que el texto quede en el centro se usa un "text-aling: center;"</p>
+
+                <section alt="explicacion de div y span">
+                    <h1>diferencia entre div y span</h1>
+
+                    <p>lo mas basico lo explicare con texto para evitar ocupar tanto espacio</p>
+                    <div class="c1"><p>Aqui uso un "p" dentro de un div, lo que permitira extender la forma a lo largo de la pagina</p></div>
+                    <span class="c2">
+                        <p>En cambio aqui tambien usando "p" y no se ve el color negro</p>
+                        eso es por que, para que eso funcione el texto o la imagen debe esta sin formato, debido a que la etiqueta "span" creara un controno automatico
+                        y no una figura a lo largo de la pagina.
+                        <h6>ni al usar un h6 se va a pintar de negro</h6>
+                    </span>
+
+                    <p>El main ocupa un "display: flex;" para que el contenido quede hordenado horizontalmente y no en forma de columna.</p>
+                    <p>Como las imagenes NO estan en un contenedor, se apilan en forma de columna</p>
+                    <div class="c1"><img src="img/HRyGplZawAAyPvz.png" alt="gato">Como pueden ver, con el "div" se crea un contorno a lo largo siendo imagen o texto</div>
+                    <span class="c2"><img src="img/HRyGplZawAAyPvz.png" alt="gato"></span>
+                    En cambio con el "span", se va a crear un contorno a lo largo de la figura nada mas
+                </section>
+
+                <section>
+                    <h1>PADDING Y MARGIN</h1>
+
+                    <p>para entender en palabras sensillas</p>
+                    <p>El PADDING creara un borde dentro de el area de trabajo.</p>
+                    <p>El MARGIN creara un borde FUERA de el area de trabajo.</p>
+                    <p>y obviamente esto dependera si se usa padding o margin.</p>
+
+                    <div class="p1">Aqui tenemos un "div" con una configuracion de PADDING de 10px</div>
+                    <span class="p1">y aqui tenemos un "span" con una configuracion de PADDING de 10px</span>
+                    <p>como se puede ver, en este ejemplo los fondos individuales se juntan por el uso del padding</p>
+                    
+
+                    <div class="m1">Aqui tenemos un "div" con una configuracion de MARGIN de 10px</div>
+                    <span class="m1">y aqui tenemos un "span" con una configuracion de MARGIN de 10px</span>
+                    <p>en cambio aqui se separan mas unos de otros, pero aun asi manteniendo sus margenes</p>
+
+                </section>
+            </main>
+
+            <aside class="contenedor-der">
+                <p>explicacion mas detallada de contenidos:</p>
+                <nav>
+                    <ul><a href="#">Texto y opciones visuales</a></ul>
+                    <ul><a href="../contenedores/Contenedores.html">Contenedores y tipos de etiquetas</a></ul>
+                    <ul><a href="#">Uso de botones, Inputs y Java Script</a></ul>
+                </nav>
+            </aside>
+            a
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
